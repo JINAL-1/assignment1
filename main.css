@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:2px;
+	padding: 5px;
+	font-family:Times;
+	background-color: beige;
+	line-height: 1.88889;
+	}
+
+p 
+{ 
+	margin: 10px; 
+	text-align: justify;
+	font-size: 18px;
+}
+
+h3 
+{ 
+	font-size:32px;
+	letter-spacing: 1px; 
+	margin-bottom: 15px; 
+	color: #F90360;
+	font-family:"Liberation Serif";
+}
+
+
+h1
+{
+	text-align: center;
+	color:#9D054E;
+	font-family:'crimson-text';
+	font-size: 48px;
+	text-decoration: underline overline;
+	text-decoration-style: double; 
+}
+
+h2
+{
+	color:#00CA26;
+	line-height: 2;
+	margin: 20px;
+	font-family:  "Georgia";
+	padding-top: 20px;
+	font-size:36px;
+	text-align: center;
+}
+
+h2>abbr
+{
+	color:#544E4E;
+	text-decoration-color: #D21A1D;
+	text-decoration-style: wavy;
+	font-family: "Lucida Grande";
+}
+
+abbr
+{
+	color:orchid;
+}
+
+.summary>p
+{
+	color: black;
+}
+
+.summary p+abbr
+{
+	text-decoration: underline;
+	text-decoration-color:#860104;
+	font-weight: lighter;
+	color: #0C39D8;
+}
+
+.main
+{
+	text-align: justify;
+	position:relative;
+}
+
+.main a
+{
+	text-decoration: none;
+    color:rebeccapurple;
+}
+
+.summary p>a
+{
+	border: 7px solid #E77C1C;
+	color: firebrick;
+	text-decoration: none;
+	padding: 5px;
+	}
+
+/*general sibling*/
+.preamble~.mainsupporting
+{
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	text-align: justify;
+}
+
+.page-wrapper 
+{   
+	margin: 0; 
+	position: relative;
+	}
+
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	text-align: justify;
+	}
+
+
+.summary 
+{
+	
+	margin: 20px; 
+	
+	}
+
+.summary>p 
+{
+		text-align: left;
+	}
+
+.preamble
+{
+	clear: right; 
+	padding: 0px 10px 0 10px;
+}
+
+.supporting
+{	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+}
+
+footer 
+{ 
+	text-align: center; 
+	padding-top: 50px;
+}
+
+footer a
+{
+	color:darkkhaki;
+	font-family: "nixie-one";
+	font-size: 20px;
+}
+
+.sidebar
+{
+	background-color: lavender; 
+}
+
+.sidebar>.wrapper
+{ 
+	font-size: 16px ; 
+	background: top right;
+	font-family:monospace;
+	padding: 10px; 
+}
+
+.sidebar>.wrapper a
+{
+	text-decoration: none;
+    color:#14C18F;
+}
+
+.select 
+{
+	font-family: Consolas;
+	color: chocolate;
+}
+
+.wrapper h3
+{
+	font-family: Consolas;
+	color: chocolate;
+}
+
